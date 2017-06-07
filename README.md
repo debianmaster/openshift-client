@@ -1,4 +1,4 @@
-
+> This openshift-client library is based on godaddy/kubernetes-client library, created by https://github.com/silasbw  I will be maintaing it. 
 
 ## Using
 
