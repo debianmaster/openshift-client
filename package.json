@@ -1,0 +1,23 @@
+{
+  "name": "openshift-client",
+  "version": "0.0.3",
+  "description": "OpenShift nodejs client library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debianmaster/openshift-client.git"
+  },
+  "keywords": [],
+  "author": "Originally by @sterburg maintained by @debianmaster"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silasbw/openshift-client-scratch/issues"
+  },
+  "homepage": "https://github.com/silasbw/openshift-client-scratch#readme",
+  "dependencies": {
+    "kubernetes-client": "^3.11.0"
+  }
+}
