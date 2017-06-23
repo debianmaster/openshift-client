@@ -24,3 +24,5 @@ jsonStreamDC.on('data', object => {
 
 > For more examples refer https://github.com/godaddy/kubernetes-client  
 
+## More documentation?
+https://github.com/godaddy/kubernetes-client/blob/master/README.md  
