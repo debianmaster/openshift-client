@@ -5,14 +5,14 @@
 ```js
 const OpenShiftClient = require('openshift-client');
 
-// Get Deployments
+// Get Deployments from a specific namespace
 const oapi = new OpenShiftClient.OApi(OpenShiftClient.config.fromKubeconfig());
 oapi.ns('foo').deploymentconfigs('bar').get((err, result) => {
   if (err) throw err;
   console.log(JSON.stringify(result, null, 2));
 });
 
-// Watch Deployments
+// Watch Deployment Events across all namespaces.
 const streamDC = oapi.deploymentconfigs.get({ qs: { watch: true } });
 const JSONStream = require('json-stream');
 const jsonStreamDC = new JSONStream();
@@ -23,3 +23,6 @@ jsonStreamDC.on('data', object => {
 ```
 
 > For more examples refer https://github.com/godaddy/kubernetes-client  
+
+## More documentation?
+https://github.com/godaddy/kubernetes-client/blob/master/README.md  
