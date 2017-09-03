@@ -1,6 +1,6 @@
 {
   "name": "openshift-client",
-  "version": "3.10.7",
+  "version": "3.10.8",
   "description": "OpenShift nodejs client library",
   "main": "lib/index.js",
   "scripts": {
